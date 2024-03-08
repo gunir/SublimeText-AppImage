@@ -1,0 +1,48 @@
+{
+    "buildinfo": [
+    {
+        "prerun": [
+            "curl -sL https://download.sublimetext.com/sublime-text_build-4169_amd64.deb -o ~/.cache/deb2appimage/debs/sublime-text_build-4169_amd64.deb"
+        ],
+        "name": "sublime_text",
+        "version": "linux",
+        "deps": "",
+        "repoarch": "amd64",
+        "distrorepo": "Debian",
+        "repoversion": "jessie-backports,jessie,jessie",
+        "binarypath": "/usr/bin/subl",
+        "desktoppath": "/usr/share/applications/sublime_text.desktop",
+        "iconpath": "/opt/sublime_text/Icon/256x256/sublime-text.png",
+        "usewrapper": "true",
+        "postrun": [
+            null
+        ]
+    }
+    ],
+    "apprunconf": [
+    {
+        "setpath": "true",
+        "setlibpath": "true",
+        "setpythonpath": "false",
+        "setpythonhome": "false",
+        "setpythondontwritebytecode": "false",
+        "setxdgdatadirs": "false",
+        "setperllib": "false",
+        "setgsettingsschemadir": "false",
+        "setqtpluginpath": "false",
+        "exec": "/usr/bin/subl.wrapper"
+    }
+    ],
+    "authors": [
+    {
+        "type": "Author",
+        "author": "gunir",
+        "url": "https://github.com/gunir"
+    },
+    {
+        "type": "AppImage Maintainer",
+        "author": "gunir",
+        "url": "https://github.com/gunir"
+    }
+    ]
+}
