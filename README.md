@@ -2,6 +2,6 @@ Homepage: https://www.sublimetext.com/
 
 To make it fully portable:
 
-`./sublime_text-linux-x86_64.AppImage --appimage-portable-home`
+`./subl.AppImage --appimage-portable-home`
 
-`./sublime_text-linux-x86_64.AppImage --appimage-portable-config`
+`./subl.AppImage --appimage-portable-config`
